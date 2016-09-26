@@ -1,0 +1,27 @@
+{
+  "name": "robertobarron.com",
+  "version": "1.0.0",
+  "description": "Personal website of Robert Barron",
+  "main": "app.js",
+  "author": "Robert Barron",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "load-grunt-tasks": "^3.1.0",
+    "express": "^4.13.3",
+    "body-parser": "^1.14.1",
+    "connect-busboy": "0.0.2"
+  },
+  "engines": {
+    "node": "0.12.1",
+    "npm": "2.5.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.10.0"
+  }
+}

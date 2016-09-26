@@ -1,0 +1,14 @@
+
+.icon-left-open:before { content: '\e800'; } /* '' */
+.icon-right-open:before { content: '\e801'; } /* '' */
+.icon-apple:before { content: '\e802'; } /* '' */
+.icon-android:before { content: '\e803'; } /* '' */
+.icon-github:before { content: '\e804'; } /* '' */
+.icon-twitter:before { content: '\e805'; } /* '' */
+.icon-facebook:before { content: '\e806'; } /* '' */
+.icon-gplus:before { content: '\e807'; } /* '' */
+.icon-linkedin:before { content: '\e808'; } /* '' */
+.icon-mobile:before { content: '\e809'; } /* '' */
+.icon-tasks:before { content: '\e80a'; } /* '' */
+.icon-newspaper:before { content: '\e80b'; } /* '' */
+.icon-globe:before { content: '\e80c'; } /* '' */

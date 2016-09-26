@@ -1,0 +1,18 @@
+<div class="item small-10 medium-6 large-6 small-centered column animated fadeInUp">
+	<div class="item-container">
+		<div class="showcase">
+			<img src="{{image_url}}">
+		</div>
+		<div class="about">
+			<p class="company"><span>{{company}}</span></p>
+			<p class="position">Position: <span>{{position}}</span></p>
+			<p class="date">Date: <span>{{when}}</span></p>
+			<p class="tools">Tools: <span>{{tools}}</span></p>
+			<p class="description">Description: <span>{{description}}</span></p>
+			<p class="link">
+				<a href="{{link}}" target="_blank">Website</a>
+			</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>

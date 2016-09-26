@@ -1,0 +1,180 @@
+{
+	"items": [
+		{
+			"company":"iOS Apps",
+			"position": "Developer",
+			"image_url":"images/portfolio/ios.jpg",
+			"when": "November 2015",
+			"tools": "Swift 2, JPLoad, Grunt, JavaScript, CSS3, Node.js",
+			"description": "Several apps built for iOS with Swift 2",
+			"link": "http://www.robertobarron.com"
+		},
+		{
+			"company":"BANORTE",
+			"position": "Lead Front End Engineer",
+			"image_url":"images/portfolio/banorte.jpg",
+			"when": "March 2015",
+			"tools": "Handlebars, JPLoad, Modernizr, Grunt, JavaScript, Dojo, CSS3, WebSphere, Rational Team Concert, BTT (Banking Transformation toolkit)",
+			"description": "Banorte's next generation Internet Banking service.",
+			"link": "http://www.banorte.com"
+		},
+		{
+			"company":"Chat Interno",
+			"position": "Developer",
+			"image_url":"images/portfolio/chat.jpg",
+			"when": "August 2015",
+			"tools": "JavaScript, Node.js, JPLoad, Mongo, Socket.io",
+			"description": "Chat build to connect coworkers inside an enterprise.",
+			"link": "http://chat.robertobarron.com"
+		},
+		{
+			"company":"JPLoad",
+			"position": "Developer",
+			"image_url":"images/portfolio/jpload.jpg",
+			"when": "August 2015",
+			"tools": "JavaScript",
+			"description": "Library to build single page applications",
+			"link": "http://jpload.robertobarron.com"
+		},
+
+		{
+			"company":"Sojo&nbsp;Studios",
+			"position": "Lead Front End Engineer",
+			"image_url":"images/portfolio/sojostudios.jpg",
+			"when": "January 2014",
+			"tools": "JPLoad, Handlebars, RequireJS, Grunt, JavaScript, JQuery, CSS3, Modernizr, Backbone, Underscore",
+			"description": "Platform that build tools that allow businesses to do real world good while building their brand.",
+			"link": "http://www.sojostudios.com"
+		},
+
+		{
+			"company":"eGood Inc.",
+			"position": "Front End Developer",
+			"image_url":"images/portfolio/egood.jpg",
+			"when": "September 2013",
+			"tools": "NodeJS, Jsmart, Handlebars, RequireJS, CommonJS, Rendr, Grunt, JavaScript, JQuery, CSS3, Modernizr, Backbone, Underscore, Php, cakePHP, MySQL and MongoDB",
+			"description": "Platform that connects Worthy Causes, Caring Communities, and Socially Concerned Companies looking to combine higher profits with a higher purpose.",
+			"link": "http://www.egood.com"
+		},
+
+		{
+			"company":"Winnol",
+			"position": "Front End / Back End Developer",
+			"image_url":"images/portfolio/winol.jpg",
+			"when": "November 2013",
+			"tools": "JavaScript, JQuery, CSS3, Modernizr, Backbone, Underscore, Php, CodeIgniter, MySQL and MongoDB",
+			"description": "Online Marketing Website.",
+			"link": "http://www.winnol.com"
+		},
+
+		{
+			"company":"H. SALT",
+			"position": "Front End Developer",
+			"image_url":"images/portfolio/hsalt.jpg",
+			"when": "October 2012",
+			"tools": "JavaScript, JQuery, CSS3, Responsive Layout, SASS",
+			"description": "Restaurant Website.",
+			"link": "http://www.hsalt.com"
+		},
+
+		{
+			"company":"MINT",
+			"position": "Front End / Back End Developer",
+			"image_url":"images/portfolio/mint.jpg",
+			"when": "January 2014",
+			"tools": "JavaScript, JQuery, CSS3, Modernizr, Liquid, Shopify",
+			"description": "eCommerce Website.",
+			"link": "http://www.irobot.com"
+		},
+
+		{
+			"company":"Black&nbsp;Pointe",
+			"position": "Front End Developer",
+			"image_url":"images/portfolio/black.jpg",
+			"when": "September 2012",
+			"tools": "JavaScript, JQuery, CSS3, Modernizr, PHP",
+			"description": "Construction Company Website.",
+			"link": "http://www.blackpointe.com"
+		},
+
+		{
+			"company":"Man&nbsp;Beavier",
+			"position": "Front End Developer",
+			"image_url":"images/portfolio/manmanbeaver.jpg",
+			"when": "September 2012",
+			"tools": "JavaScript, JQuery, CSS3, Modernizr, PHP",
+			"description": "TV Show Website",
+			"link": "http://www.manmanbeaver.org"
+		},
+
+		{
+			"company":"SIMDIA App",
+			"position": "Android Developer",
+			"image_url":"images/portfolio/android.jpg",
+			"when": "March 2012",
+			"tools": "Android SDK",
+			"description": "Application for mobile devices with Android OS. App allows producers to gather information in real time, about his condition on number of insects and it propagation.",
+			"link": "#"
+		},
+
+		{
+			"company":"SIMTRA",
+			"position": "Full Stack Developer",
+			"image_url":"images/portfolio/simtra.jpg",
+			"when": "January 2012",
+			"tools": "PHP, cakePHP, Javascript, JQuery, HTML, CSS3, MySQL",
+			"description": "Web application focalized on Acrobasis nuxvorella Neunsig insects , developed for the pecan nut producers of Sonora State. With backend manager.",
+			"link": "http://www.siafeson.com/simgbn/"
+		},
+
+		{
+			"company":"SIMDIA",
+			"position": "Full Stack Developer",
+			"image_url":"images/portfolio/simdia.jpg",
+			"when": "July 2011",
+			"tools": "PHP, cakePHP, Javascript, JQuery, HTML, CSS3, MySQL",
+			"description": "Web application dedicated on Diaphorina Insects , developed for the citric producers of The Sonora State. Includes a backend manager.",
+			"link": "http://www.siafeson.com/simdia/"
+		},
+
+		{
+			"company":"PROFYH",
+			"position": "Full Stack Developer",
+			"image_url":"images/portfolio/profyh.jpg",
+			"when": "December 2010",
+			"tools": "PHP , Javascript, HTML, CSS, JQuery, MySQL, Google Maps",
+			"description": "Developed for The Asociación Agrícola Local de Productores de Frutas y Hortalizas de la Región de Caborca (PROFYH). Includes an administrator section to manage the entire site.",
+			"link": "http://www.profyh.com"
+		},
+
+		{
+			"company":"CESAVE",
+			"position": "Full Stack Developer",
+			"image_url":"images/portfolio/cesaveson.jpg",
+			"when": "June 2010",
+			"tools": "PHP , Javascript, HTML, CSS, JQuery, MySQL, Google Maps",
+			"description": "Developed for The Comité Estatal de Sanidad Vegetal de Sonora (CESAVESON). Includes a backend manager to control the entire site.",
+			"link": "http://www.cesaveson.com"
+		},
+		
+		{
+			"company":"SIAFESON",
+			"position": "Full Stack Developer",
+			"image_url":"images/portfolio/siafeson.jpg",
+			"when": "February 2009",
+			"tools": "PHP , Javascript, HTML, CSS3, JQuery, MySQL, Google Maps",
+			"description": "Web Application developed to evaluate, monitor and predict the behavior and propagation of different plagues or insects that affect the plants health of The Sonora State. Includes an administrator section to manage the entire site.",
+			"link": "http://www.siafeson.com"
+		},
+
+		{
+			"company":"AGROSON",
+			"position": "Full Stack Developer",
+			"image_url":"images/portfolio/agroson.jpg",
+			"when": "March 2008",
+			"tools": "PHP , Javascript, HTML, CSS3, JQuery, MySQL, Google Maps",
+			"description": "Web application Developed to monitor and forecast weather behavior information.",
+			"link": "http://www.agroson.org.mx"
+		}
+	]
+}

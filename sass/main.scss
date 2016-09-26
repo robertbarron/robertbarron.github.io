@@ -1,0 +1,135 @@
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #ccc;
+}  
+::-webkit-scrollbar-thumb:hover {
+	background-color: #aaa;
+}  
+
+@font-face {
+	font-family: "SWP";
+	src: url("fonts/SegoeWP.eot");
+	src: local("☺"), 
+		url("fonts/SegoeWP.woff") format("woff"), 
+		url("fonts/SegoeWP.ttf") format("truetype"), 
+		url("fonts/SegoeWP.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "SWPB";
+	src: url("fonts/SegoeWP-Semibold.eot");
+	src: local("☺"), 
+		url("fonts/SegoeWP-Semibold.woff") format("woff"), 
+		url("fonts/SegoeWP-Semibold.ttf") format("truetype"), 
+		url("fonts/SegoeWP-Semibold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SWPL";
+	src: url("fonts/SegoeWP-Light.eot");
+	src: local("☺"), 
+		url("fonts/SegoeWP-Light.woff") format("woff"), 
+		url("fonts/SegoeWP-Light.ttf") format("truetype"), 
+		url("fonts/SegoeWP-Light.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "script";
+	src: url("fonts/ThrowMyHandsUpintheAir.ttf");
+}
+
+@font-face {
+ font-family: "scriptB";
+ src: url("fonts/ThrowMyHandsUpintheAirBold.ttf") /* TTF file for CSS3 browsers */
+
+}
+
+$white:#fff;
+$lblue:#48a1d7;
+$blue :#3b84b9;
+$black : #1C2028;
+$bluep: #1589d6;
+$gray : #333;
+$safiro: #00afae;
+$yellow: #ffb831;
+
+body,html {
+	padding:0;
+	margin: 0;
+	background: $black;
+}
+* {
+	box-sizing: border-box;
+}
+
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.site-info {
+	display: none;
+}
+.display-none {
+	display: none;
+}
+.fiter-hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+.hidden {
+	opacity: 0 !important;
+	transition: all 700ms ease;
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+}
+.explode {
+	transform: scale(2);
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
+}
+.full-width {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+#main {
+	// background-color: #ffb831;
+	background: url(../images/header-bg.jpg) no-repeat 50% 0 fixed;
+	// background: url(../images/robertobarron_background.jpg) no-repeat top center fixed;
+}
+
+@media screen and (min-width: 64em) {
+	#main{
+		// background-color: #ffb831;
+		// background: #00afae;
+		background: url(../images/header-bg.jpg) no-repeat 50% 0 fixed;
+		// background: url(../images/robertobarron_background_big.jpg) no-repeat top center fixed;
+		background-size: cover;
+	}
+}
+@import '_presentation';
+@import '_aboutme';
+@import '_skills';
+@import '_portfolio';
+@import '_tools';
+@import '_contact';
