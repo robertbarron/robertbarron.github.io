@@ -4576,7 +4576,7 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #aboutme .aboutme-icon .icon-wrapper { width: 80px; height: 80px; margin: 0 auto; z-index: 2; border: solid 5px white; border-radius: 220px; background: #333; margin-top: -40px; display: inline-block; transition-duration: 4s; -webkit-transition-duration: 4s; }
 #aboutme .aboutme-icon .icon-wrapper img { width: 100%; }
 #aboutme .aboutme-container h1 { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 1.8rem; color: #1C2028; margin: 0; text-align: center; }
-#aboutme .aboutme-container h2 { text-align: justify; color: #666; font-size: 1rem; line-height: 1.1em; font-weight: 200; margin: 0; }
+#aboutme .aboutme-container h2 { text-align: justify; color: #666; font-size: 1rem; line-height: 1.1em; font-weight: 300; margin: 0; }
 #aboutme .aboutme-container .themes-container { display: inline-block; margin-top: 30px; border: solid 1px #ccc; padding: 0; }
 #aboutme .aboutme-container .themes-container .theme { cursor: pointer; height: 350px; border-bottom: solid 1px #666; background: #ccc; }
 #aboutme .aboutme-container .themes-container .theme:last-of-type { border-bottom: 0; }
@@ -5015,7 +5015,8 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #contact .footer .logo .logo-container { width: 70px; display: block; margin-top: 3px; }
 #contact .footer .logo .logo-container img { width: 100%; }
 #contact .footer .copyright { text-align: right; color: #ccc; font-size: 1em; line-height: 50px; }
-
+#contact .email-text {text-align: center;margin-top: 30px;margin-bottom: 50px;}
+#contact .email-text h1 { font-size: 1.5rem;}
 @media screen and (max-width: 350px) { #contact .footer .copyright { font-size: .8rem; }
   #contact .social_networks .link { padding-right: 3px; } }
 @media screen and (max-width: 485px) { #contact .social_networks { width: 80%; text-align: center; margin: 0 auto; float: none; margin-top: 30px; margin-bottom: 100px; }
@@ -5030,7 +5031,8 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   #contact .social_networks .link a .ico { font-size: 1.5rem; background: #fff; color: #1C2028; border-radius: 5px; text-align: center; width: auto; height: auto; margin-right: 20px; padding: 7px 0; border: solid 1px #1C2028; }
   #contact .phone .phone-container { height: 40px; background: #1C2028; color: #fff; border: 0; }
   #contact .phone .phone-container .icon-mobile┬á { margin-top: 10px; }
-  #contact .phone .phone-container .phone-number { line-height: 40px; } }
+  #contact .phone .phone-container .phone-number { line-height: 40px; }
+  #contact .email-text h1 { font-size: 3.5rem; } }
 @media screen and (min-width: 64em) { #contact .map-container { height: 500px; }
   #contact .phone .phone-container .icon-mobile { margin-top: 8px; }
   #contact .phone .phone-container .icon-mobile, #contact .phone .phone-container .phone-number { font-size: 1.5rem; } }
