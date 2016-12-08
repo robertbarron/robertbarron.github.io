@@ -1,0 +1,223 @@
+{
+	"tools" : [
+		{
+			"name" : "Node.js",
+			"image_url" : "images/logos/nodejs.png",
+			"desc" : "Node js"
+		},
+		{
+			"name" : "Backbone.js",
+			"image_url" : "images/logos/backbone.png",
+			"desc" : "Backbone js"
+		},
+		{
+			"name" : "Underscore.js",
+			"image_url" : "images/logos/underscore.png",
+			"desc" : "Underscore js"
+		},
+		{
+			"name" : "Angular.js",
+			"image_url" : "images/logos/angularjs.jpg",
+			"desc" : "Angular js"
+		},
+		{
+			"name" : "React.js",
+			"image_url" : "images/logos/react.jpg",
+			"desc" : "React js"
+		},
+		{
+			"name" : "Javascript MVC",
+			"image_url" : "images/logos/javascript.png",
+			"desc" : "Javascript"
+		},
+		
+		{
+			"name" : "HTML 5",
+			"image_url" : "images/logos/html5.png",
+			"desc" : "HTML 5"
+		},
+		{
+			"name" : "jQuery",
+			"image_url" : "images/logos/jquery.png",
+			"desc" : "jQuery"},
+		{
+			"name" : "Handlebars.js",
+			"image_url" : "images/logos/handlebars.png",
+			"desc" : "HandbleBars js"},
+		{
+			"name" : "Require.js",
+			"image_url" : "images/logos/requirejs.png",
+			"desc" : "Require js"},
+		{
+			"name" : "Modernizr.js",
+			"image_url" : "images/logos/modernizr.png",
+			"desc" : "Modernizr js"},
+		{
+			"name" : "PHP",
+			"image_url" : "images/logos/php.png",
+			"desc" : "PHP"
+		},
+
+		{
+			"name" : "CSS3",
+			"image_url" : "images/logos/css3.png",
+			"desc" : "CSS 3"
+		},
+		{
+			"name" : "SASS",
+			"image_url" : "images/logos/sass.png",
+			"desc" : "SASS"
+		},
+		{
+			"name" : "Zurb Foundation",
+			"image_url" : "images/logos/foundation.png",
+			"desc" : "ZURB Foundation"
+		},
+		{
+			"name" : "Flat UI",
+			"image_url" : "images/logos/flatui.jpg",
+			"desc" : "Flat UI"
+		},
+		{
+			"name" : "Google Starter Kit",
+			"image_url" : "images/logos/googlestarterkit.jpg",
+			"desc" : "Google Starter Kit"
+		},
+		{
+			"name" : "Bootstrap 3",
+			"image_url" : "images/logos/twitter_bootstrap.png",
+			"desc" : "Twitter Bootstrap"
+		},
+
+		{
+			"name" : "Grunt",
+			"image_url" : "images/logos/grunt.png",
+			"desc" : "Grunt"
+		},
+
+		{
+			"name" : "Yeoman",
+			"image_url" : "images/logos/yeoman.jpg",
+			"desc" : "Yeoman"
+		},
+
+		{
+			"name" : "Bower",
+			"image_url" : "images/logos/bower.jpg",
+			"desc" : "Bower"
+		},
+		{
+			"name" : "Gulp",
+			"image_url" : "images/logos/gulp.jpg",
+			"desc" : "Gulp js"
+		},
+		{
+			"name" : "Cake PHP",
+			"image_url" : "images/logos/cakephp.png",
+			"desc" : "Cake PHP"
+		},
+		{
+			"name" : "Code Igniter",
+			"image_url" : "images/logos/codeigniter.png",
+			"desc" : "Code Igniter"
+		},
+
+		{
+			"name" : "Pivotal Tracker",
+			"image_url" : "images/logos/pivotaltracker.png",
+			"desc" : "Pivotal Tracker"
+		},
+		{
+			"name" : "JIRA",
+			"image_url" : "images/logos/jira.png",
+			"desc" : "JIRA"
+		},
+		{
+			"name" : "BugHerd",
+			"image_url" : "images/logos/bugherd.png",
+			"desc" : "BugHerd"
+		},
+		{
+			"name" : "Trello",
+			"image_url" : "images/logos/trello.jpg",
+			"desc" : "Trello"
+		},
+		{
+			"name" : "GIT",
+			"image_url" : "images/logos/git.png",
+			"desc" : "GIT"
+		},
+
+		{
+			"name" : "Google Maps",
+			"image_url" : "images/logos/googlemaps.png",
+			"desc" : "Google Maps"
+		},
+		{
+			"name" : "Photoshop",
+			"image_url" : "images/logos/photoshop.jpg",
+			"desc" : "Photoshop"
+		},
+		{
+			"name" : "Kontagent",
+			"image_url" : "images/logos/kontagent.jpg",
+			"desc" : "Kontagent"
+		},
+		{
+			"name" : "Java",
+			"image_url" : "images/logos/java.png",
+			"desc" : "Java"
+		},
+		{
+			"name" : "MatLab",
+			"image_url" : "images/logos/matlab.png",
+			"desc" : "MatLab"
+		},
+
+		{
+			"name" : "Mongo DB",
+			"image_url" : "images/logos/mongodb.png",
+			"desc" : "MongoDB"
+		},
+		{
+			"name" : "MySQL",
+			"image_url" : "images/logos/mysql.png",
+			"desc" : "MySQL"
+		},
+		{
+			"name" : "SQL Server",
+			"image_url" : "images/logos/mssql.png",
+			"desc" : "SQL Server"
+		},
+		{
+			"name" : "MEAN Stack",
+			"image_url" : "images/logos/mean_stack.jpg",
+			"desc" : "MEAN Stack"
+		},
+		{
+			"name" : "JPLoad.js",
+			"image_url" : "images/logos/jpload.jpg",
+			"desc" : "JPLoad js"
+		},
+		{
+			"name" : "Express",
+			"image_url" : "images/logos/express.jpg",
+			"desc" : "Express js"
+		},
+		{
+			"name" : "Websphere",
+			"image_url" : "images/logos/websphere.jpg",
+			"desc" : "IBM WebSphere"
+		},
+		{
+			"name" : "Android",
+			"image_url" : "images/logos/android.jpg",
+			"desc" : "Android OS"
+		},
+		{
+			"name" : "Swift 2",
+			"image_url" : "images/logos/swift.png",
+			"desc" : "Swift 2 iOS"
+		}
+	]
+}
