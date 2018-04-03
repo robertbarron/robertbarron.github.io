@@ -1,6 +1,21 @@
 {
 	"tools" : [
 		{
+			"name" : "Kubernetes",
+			"image_url" : "images/logos/kubernetes.png",
+			"desc" : "Kubernetes"
+		},
+		{
+			"name" : "AWS",
+			"image_url" : "images/logos/aws.png",
+			"desc" : "AWS"
+		},
+		{
+			"name" : "AZURE",
+			"image_url" : "images/logos/azure.png",
+			"desc" : "AZURE"
+		},
+		{
 			"name" : "Node.js",
 			"image_url" : "images/logos/nodejs.png",
 			"desc" : "Node js"
@@ -88,7 +103,11 @@
 			"image_url" : "images/logos/twitter_bootstrap.png",
 			"desc" : "Twitter Bootstrap"
 		},
-
+		{
+			"name" : "Webpack",
+			"image_url" : "images/logos/webpack.png",
+			"desc" : "Webpack"
+		},
 		{
 			"name" : "Grunt",
 			"image_url" : "images/logos/grunt.png",

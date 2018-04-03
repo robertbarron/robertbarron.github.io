@@ -1,6 +1,33 @@
 {
 	"items": [
 		{
+			"company":"GBM ",
+			"position": "Tech Lead",
+			"image_url":"images/portfolio/homebroker.jpg",
+			"when": "January 2018",
+			"tools": "Angular 4, Webpack, JavaScript, CSS3, Node.js, AWS, Kubernetes, Docker, Continuous Integration pipeline",
+			"description": "GBMHomebroker Online Stock Exchange Platform",
+			"link": "https://hb.gbmhomebroker.com"
+		},
+		{
+			"company":"GBM",
+			"position": "Tech Lead",
+			"image_url":"images/portfolio/gbmonline.jpg",
+			"when": "September 2017",
+			"tools": "Webpack, Vanilla JavaScript, CSS3, Node.js, Docker, Azure, Continuous Integration pipeline",
+			"description": "GBM's Private banking, taxation and documentation platform",
+			"link": "https://www.gbmtreasure.com.mx/"
+		},
+		{
+			"company":"GBM ",
+			"position": "Tech Lead",
+			"image_url":"images/portfolio/gbmtreasure.jpg",
+			"when": "January 2017",
+			"tools": "Webpack, Vanilla JavaScript, CSS3, Node.js, Azure, Continuous Integration pipeline",
+			"description": "GBM's One stop treasury solution for businesses",
+			"link": "https://bancaprivada.gbm.com.mx"
+		},
+		{
 			"company":"iOS Apps",
 			"position": "Developer",
 			"image_url":"images/portfolio/ios.jpg",
