@@ -36,9 +36,9 @@
 			"desc" : "Backbone js"
 		},
 		{
-			"name" : "Underscore.js",
-			"image_url" : "images/logos/underscore.png",
-			"desc" : "Underscore js"
+			"name" : "Vue",
+			"image_url" : "images/logos/vue.png",
+			"desc" : "Vue"
 		},
 		{
 			"name" : "Angular.js",
