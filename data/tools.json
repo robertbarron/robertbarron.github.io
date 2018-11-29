@@ -1,6 +1,11 @@
 {
 	"tools" : [
 		{
+			"name" : "Docker",
+			"image_url" : "images/logos/docker.png",
+			"desc" : "Docker"
+		},
+		{
 			"name" : "Kubernetes",
 			"image_url" : "images/logos/kubernetes.png",
 			"desc" : "Kubernetes"
@@ -14,6 +19,11 @@
 			"name" : "AZURE",
 			"image_url" : "images/logos/azure.png",
 			"desc" : "AZURE"
+		},
+		{
+			"name" : "Jenkins",
+			"image_url" : "images/logos/jenkins.png",
+			"desc" : "Jenkins"
 		},
 		{
 			"name" : "Node.js",
