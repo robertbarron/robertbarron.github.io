@@ -4941,7 +4941,7 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   #portfolio .portfolio-container .mask .item .item-container .showcase { width: 100%; }
   #portfolio .portfolio-container .mask .item .item-container .showcase img { width: 100%; }
   #portfolio .portfolio-container .mask .item .item-container .about { width: 100%; color: #1C2028; padding-left: 20px; font-weight: 900; margin-top: -30px; }
-  #portfolio .portfolio-container .mask .item .item-container .about .company { font-size: 4.5rem; margin: 0; padding: 0; text-align: center; }
+  #portfolio .portfolio-container .mask .item .item-container .about .company { font-size: 4.0rem; margin: 0; padding: 0; text-align: center; }
   #portfolio .portfolio-container .mask .item .item-container .about .tools span { background: #1C2028; color: #fff; border-radius: 5px; margin-right: 5px; padding: 2px 4px; font-weight: 100; display: inline-block; margin-top: 3px; font-size: .7rem; letter-spacing: 2px; font-weight: 500; }
   #portfolio .portfolio-container .mask .item .item-container .about .link { background-color: #1C2028; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
   #portfolio .portfolio-container .mask .item .item-container .about .link a { text-decoration: none; text-transform: none; color: #fff; }

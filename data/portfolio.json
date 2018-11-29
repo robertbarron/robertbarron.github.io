@@ -46,7 +46,7 @@
 			"link": "http://www.banorte.com"
 		},
 		{
-			"company":"Chat Interno",
+			"company":"myChat",
 			"position": "Developer",
 			"image_url":"images/portfolio/chat.jpg",
 			"when": "August 2015",
@@ -95,7 +95,7 @@
 		},
 
 		{
-			"company":"H. SALT",
+			"company":"H. Salt",
 			"position": "Front End Developer",
 			"image_url":"images/portfolio/hsalt.jpg",
 			"when": "October 2012",
@@ -105,7 +105,7 @@
 		},
 
 		{
-			"company":"MINT",
+			"company":"Mint",
 			"position": "Front End / Back End Developer",
 			"image_url":"images/portfolio/mint.jpg",
 			"when": "January 2014",
