@@ -3,9 +3,18 @@
 		{
 			"company":"GBM ",
 			"position": "Tech Lead",
-			"image_url":"images/portfolio/homebroker.jpg",
+			"image_url":"images/portfolio/homebroker.jpeg",
 			"when": "January 2018",
-			"tools": "Angular 4, Webpack, JavaScript, CSS3, Node.js, AWS, Kubernetes, Docker, Continuous Integration pipeline",
+			"tools": "Angular 7, Webpack, RxJS, JavaScript, SASS, Node.js, AWS, Kubernetes, Docker, Codepipeline, Jest",
+			"description": "GBMHomebroker Online Stock Exchange Platform",
+			"link": "https://hb.gbmhomebroker.com"
+    },
+    {
+			"company":"GBM ",
+			"position": "Tech Lead",
+			"image_url":"images/portfolio/plataformaunificada.jpeg",
+			"when": "March 2017",
+			"tools": "Angular 7, Webpack, RxJS, JavaScript, SASS, Node.js, Azure, Kubernetes, Docker, TFVS, CD/CI, Jasmine",
 			"description": "GBMHomebroker Online Stock Exchange Platform",
 			"link": "https://hb.gbmhomebroker.com"
 		},
