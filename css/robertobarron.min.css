@@ -4597,15 +4597,26 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 
 #aboutme .aboutme-container .resume-link-container {
   text-align: center;
-  margin: 0 auto;
+  margin: 90px auto 100px;
 }
 
 #aboutme .aboutme-container .resume-link-container a {
-  text-decoration: none; text-transform: none; color: #525252; ransition: all .3s;
+  text-decoration: none; 
+  text-transform: none; 
+  color: #525252; 
+  transition: all .3s;
+  height: 60px;
+  padding: 14px 50px;
+  border: solid 2px #525252;
 }
 #aboutme .aboutme-container .resume-link-container a:hover {
-  color: #000; transition: all .3s;
+  color: #000; transition: all .3s; border: solid 2px #000;
 }
+
+#aboutme .aboutme-container .resume-link-container a:hover:after {
+  content: '\8629';
+}
+
 @media screen and (min-width: 450px) { #aboutme .aboutme-icon { display: block; } }
 @media screen and (min-width: 40em) { #aboutme .aboutme-icon .icon-wrapper { margin-top: -75px; width: 150px; height: 150px; border: solid 7px #fff; }
   #aboutme .aboutme-container { text-align: justify; }
