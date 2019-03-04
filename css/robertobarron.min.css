@@ -4595,6 +4595,17 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #aboutme .aboutme-container .themes-container .theme:hover .link { border-radius: 50px; height: 50px; color: #333; opacity: 1; text-align: center; padding-top: 9px; padding-left: 4px; -webkit-transition: all 0.3s; transition: all .3s; }
 #aboutme .aboutme-container .themes-container .theme:hover .link:before { -webkit-transition: all 0.3s; transition: all .3s; -webkit-transition-delay: 200ms; transition-delay: 200ms; opacity: 1; content: "More"; font-weight: 200; color: #333; float: left; line-height: 30px; font-size: 1.5rem; left: 15px; }
 
+#aboutme .aboutme-container .resume-link-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#aboutme .aboutme-container .resume-link-container a {
+  text-decoration: none; text-transform: none; color: #525252; ransition: all .3s;
+}
+#aboutme .aboutme-container .resume-link-container a:hover {
+  color: #000; transition: all .3s;
+}
 @media screen and (min-width: 450px) { #aboutme .aboutme-icon { display: block; } }
 @media screen and (min-width: 40em) { #aboutme .aboutme-icon .icon-wrapper { margin-top: -75px; width: 150px; height: 150px; border: solid 7px #fff; }
   #aboutme .aboutme-container { text-align: justify; }
