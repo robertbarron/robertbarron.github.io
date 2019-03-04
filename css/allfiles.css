@@ -72,7 +72,7 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #aboutme .aboutme-icon { display: none; margin: 0 auto; width: 100%; text-align: center; }
 #aboutme .aboutme-icon .icon-wrapper { width: 80px; height: 80px; margin: 0 auto; z-index: 2; border: solid 5px white; border-radius: 220px; background: #333; margin-top: -40px; display: inline-block; transition-duration: 4s; -webkit-transition-duration: 4s; }
 #aboutme .aboutme-icon .icon-wrapper img { width: 100%; }
-#aboutme .aboutme-container { margin: 20px 0; }
+#aboutme .aboutme-container { margin: 50px 0; }
 #aboutme .aboutme-container .aboutme-desc { padding: 20px; font-size: 1rem; text-align: justify; }
 #aboutme .aboutme-container h1 { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 2.5rem; font-weight: 500; color: #525252; margin: 0; text-align: center; }
 #aboutme .aboutme-container h2 { text-align: justify; color: #666; font-size: 1rem; line-height: 1.1em; font-weight: 200; margin: 0; }
