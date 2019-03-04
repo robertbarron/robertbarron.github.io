@@ -15,8 +15,8 @@
 			"image_url":"images/portfolio/plataformaunificada.jpeg",
 			"when": "March 2017",
 			"tools": "Angular 7, Webpack, RxJS, JavaScript, SASS, Node.js, Azure, Kubernetes, Docker, TFVS, CD/CI, Jasmine",
-			"description": "GBMHomebroker Online Stock Exchange Platform",
-			"link": "https://hb.gbmhomebroker.com"
+			"description": "GBMUnifiedPlatform",
+			"link": "https://www.gbmhomebroker.com"
 		},
 		{
 			"company":"GBM",
