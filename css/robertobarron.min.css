@@ -4613,10 +4613,6 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   color: #000; transition: all .3s; border: solid 2px #000;
 }
 
-#aboutme .aboutme-container .resume-link-container a:hover:after {
-  content: '\8629';
-}
-
 @media screen and (min-width: 450px) { #aboutme .aboutme-icon { display: block; } }
 @media screen and (min-width: 40em) { #aboutme .aboutme-icon .icon-wrapper { margin-top: -75px; width: 150px; height: 150px; border: solid 7px #fff; }
   #aboutme .aboutme-container { text-align: justify; }
