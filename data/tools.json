@@ -41,21 +41,30 @@
 			"desc" : "Vue"
 		},
 		{
-			"name" : "Angular.js",
+			"name" : "Angular",
 			"image_url" : "images/logos/angularjs.jpg",
 			"desc" : "Angular js"
 		},
 		{
-			"name" : "React.js",
+			"name" : "React",
 			"image_url" : "images/logos/react.jpg",
 			"desc" : "React js"
+		},
+		{
+			"name" : "Jest",
+			"image_url" : "images/logos/jest.jpg",
+			"desc" : "Jest"
+		},
+		{
+			"name" : "New Relic",
+			"image_url" : "images/logos/newrelic.jpg",
+			"desc" : "New Relic"
 		},
 		{
 			"name" : "Javascript MVC",
 			"image_url" : "images/logos/javascript.png",
 			"desc" : "Javascript"
 		},
-		
 		{
 			"name" : "HTML 5",
 			"image_url" : "images/logos/html5.png",
