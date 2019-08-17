@@ -4575,7 +4575,7 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #aboutme .aboutme-icon { display: none; margin: 0 auto; width: 100%; text-align: center; }
 #aboutme .aboutme-icon .icon-wrapper { width: 80px; height: 80px; margin: 0 auto; z-index: 2; border: solid 5px white; border-radius: 220px; background: #333; margin-top: -40px; display: inline-block; transition-duration: 4s; -webkit-transition-duration: 4s; }
 #aboutme .aboutme-icon .icon-wrapper img { width: 100%; }
-#aboutme .aboutme-container { margin: 20px 0; }
+#aboutme .aboutme-container { margin: 50px 0; }
 #aboutme .aboutme-container .aboutme-desc { padding: 20px; font-size: 1rem; text-align: justify; }
 #aboutme .aboutme-container h1 { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 2.5rem; font-weight: 500; color: #525252; margin: 0; text-align: center; }
 #aboutme .aboutme-container h2 { text-align: justify; color: #666; font-size: 1rem; line-height: 1.1em; font-weight: 200; margin: 0; }
@@ -4594,6 +4594,11 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #aboutme .aboutme-container .themes-container .theme:hover h3 { -webkit-transition: all 0.3s; transition: all .3s; }
 #aboutme .aboutme-container .themes-container .theme:hover .link { border-radius: 50px; height: 50px; color: #333; opacity: 1; text-align: center; padding-top: 9px; padding-left: 4px; -webkit-transition: all 0.3s; transition: all .3s; }
 #aboutme .aboutme-container .themes-container .theme:hover .link:before { -webkit-transition: all 0.3s; transition: all .3s; -webkit-transition-delay: 200ms; transition-delay: 200ms; opacity: 1; content: "More"; font-weight: 200; color: #333; float: left; line-height: 30px; font-size: 1.5rem; left: 15px; }
+
+#aboutme .aboutme-container .resume-link-container { text-align: center; margin: 90px auto 100px; }
+#aboutme .aboutme-container .resume-link-container a { text-decoration: none; text-transform: none; color: #fff; transition: all .3s; height: 60px; padding: 14px 50px; border: solid 2px #fff; background: #525252; }
+#aboutme .aboutme-container .resume-link-container a:hover { color: #fff; transition: all .3s; background: #000;}
+#aboutme .aboutme-container .resume-link-container a span { margin-left: 15px; }
 
 @media screen and (min-width: 450px) { #aboutme .aboutme-icon { display: block; } }
 @media screen and (min-width: 40em) { #aboutme .aboutme-icon .icon-wrapper { margin-top: -75px; width: 150px; height: 150px; border: solid 7px #fff; }
@@ -4870,7 +4875,7 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #skills { height: auto; width: 100%; background-color: #eeeeee; padding-bottom: 50px; }
 #skills .desc { text-align: center; }
 #skills hr.styled { margin-top: 0; }
-#skills h1 { margin: 0; text-align: center; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 3rem; }
+#skills h1 { color: #525252; margin: 0; text-align: center; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 3rem; }
 #skills .skills-container { margin-top: 20px; }
 #skills .skills-container .percentage-item { width: 50%; float: left; }
 #skills .skills-container .percentage-item:last-of-type { margin: 0 auto; float: left; width: 100%; }
@@ -4908,7 +4913,7 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #portfolio .portfolio-container { max-height: 580px; overflow: hidden; height: 580px; padding-top: 115px; }
 #portfolio .portfolio-container .mask { display: inline-block; -webkit-transition: all 0.3s; transition: all 0.3s; }
 #portfolio.tiny-mobile { max-height: 600px; height: 600px; background-color: #fff; }
-#portfolio.tiny-mobile #swipe-indicator { width: 100%; margin-top: 30%; position: absolute; z-index: 2; float: left; transition-duration: 3s; -webkit-transition-duration: 3s; background: #1C2028; color: #fff; padding-top: 50px; padding-bottom: 50px; }
+#portfolio.tiny-mobile #swipe-indicator { width: 100%; margin-top: 30%; position: absolute; z-index: 2; float: left; transition-duration: 3s; -webkit-transition-duration: 3s; background: #525252; color: #fff; padding-top: 50px; padding-bottom: 50px; }
 #portfolio.tiny-mobile #swipe-indicator.rubberBand { opacity: .9; display: block; }
 #portfolio.tiny-mobile #swipe-indicator.rubberBand.display-none { display: none; }
 #portfolio.tiny-mobile #swipe-indicator .icon-left-open { width: 20%; float: left; padding-left: 10px; font-size: 4rem; }
@@ -4922,9 +4927,9 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
 #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .first-row .showcase img, #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .second-row .showcase img { width: 150%; }
 #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .company span { font-size: 2.5rem; font-weight: 900; }
 #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .position, #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .date, #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .description { text-align: left; font-weight: 900; line-height: 20px; margin: 0; margin-bottom: 10px; }
-#portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .tools span { background: #1C2028; color: #fff; border-radius: 5px; margin-right: 5px; padding: 2px 8px; font-weight: 100; }
+#portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .tools span { background: #525252; color: #fff; border-radius: 5px; margin-right: 5px; padding: 2px 8px; font-weight: 100; }
 #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .tools { display: none; }
-#portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .link { margin-top: 20px; background-color: #1C2028; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
+#portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .link { margin-top: 20px; background-color: #525252; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
 #portfolio.tiny-mobile .portfolio-container .mask .item .item-container .about .link a { text-decoration: none; text-transform: none; color: #fff; }
 
 @media screen and (max-width: 350px) { #portfolio .portfolio-container .item .item-container .about .link { font-size: .8rem; } }
@@ -4944,13 +4949,13 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   #portfolio .portfolio-container .mask .item .item-container > div { margin: 0; padding: 0; }
   #portfolio .portfolio-container .mask .item .item-container .showcase { width: 100%; }
   #portfolio .portfolio-container .mask .item .item-container .showcase img { width: 100%; }
-  #portfolio .portfolio-container .mask .item .item-container .about { width: 100%; color: #1C2028; padding-left: 20px; font-weight: 900; margin-top: -30px; }
+  #portfolio .portfolio-container .mask .item .item-container .about { width: 100%; color: #525252; padding-left: 20px; font-weight: 900; margin-top: -30px; }
   #portfolio .portfolio-container .mask .item .item-container .about .company { font-size: 4.5rem; margin: 0; padding: 0; text-align: center; }
-  #portfolio .portfolio-container .mask .item .item-container .about .tools span { background: #1C2028; color: #fff; border-radius: 5px; margin-right: 5px; padding: 2px 4px; font-weight: 100; display: inline-block; margin-top: 3px; font-size: .7rem; letter-spacing: 2px; font-weight: 500; }
-  #portfolio .portfolio-container .mask .item .item-container .about .link { background-color: #1C2028; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
+  #portfolio .portfolio-container .mask .item .item-container .about .tools span { background: #525252; color: #fff; border-radius: 5px; margin-right: 5px; padding: 2px 4px; font-weight: 100; display: inline-block; margin-top: 3px; font-size: .7rem; letter-spacing: 2px; font-weight: 500; }
+  #portfolio .portfolio-container .mask .item .item-container .about .link { background-color: #525252; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
   #portfolio .portfolio-container .mask .item .item-container .about .link a { text-decoration: none; text-transform: none; color: #fff; }
   #portfolio .portfolio-container .mask .item .item-container .about .link:hover { box-shadow: inset 0 0 0 1px #000, inset 0 72px #fff, 0 3px #000; -webkit-transform: translate(0, -3px); transform: translate(0, -3px); -webkit-transition: all 0.2s; transition: all 0.2s; }
-  #portfolio .portfolio-container .mask .item .item-container .about .link:hover a { color: #1C2028; } }
+  #portfolio .portfolio-container .mask .item .item-container .about .link:hover a { color: #525252; } }
 @media screen and (min-width: 64em) { #portfolio { background-color: #fff; }
   #portfolio #backward { width: 50px; font-size: 7rem; padding: 0; margin: 0; position: relative; margin-top: 235px; float: left; opacity: .6; cursor: pointer; -webkit-transition: all 0.3s; transition: all 0.3s; display: block; z-index: 3; }
   #portfolio #backward.hidden┬á { opacity: 0; -webkit-transition: all 0.3s; transition: all 0.3s; }
@@ -4968,16 +4973,16 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   #portfolio .portfolio-container .mask .item .item-container > div { margin: 0; padding: 0; }
   #portfolio .portfolio-container .mask .item .item-container .showcase { width: 100%; }
   #portfolio .portfolio-container .mask .item .item-container .showcase img { width: 100%; }
-  #portfolio .portfolio-container .mask .item .item-container .about { width: 100%; color: #1C2028; padding-left: 20px; font-weight: 900; margin-top: -30px; }
+  #portfolio .portfolio-container .mask .item .item-container .about { width: 100%; color: #525252; padding-left: 20px; font-weight: 900; margin-top: -30px; }
   #portfolio .portfolio-container .mask .item .item-container .about .company { font-size: 4.5rem; margin: 0; padding: 0; text-align: center; }
   #portfolio .portfolio-container .mask .item .item-container .about .tools span { font-weight: 500; }
-  #portfolio .portfolio-container .mask .item .item-container .about .link { background-color: #1C2028; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
+  #portfolio .portfolio-container .mask .item .item-container .about .link { background-color: #525252; padding: 10px 30px; color: #fff; text-align: center; width: 60%; margin: 0 auto; -webkit-transition: all 0.2s; transition: all 0.2s; }
   #portfolio .portfolio-container .mask .item .item-container .about .link a { text-decoration: none; text-transform: none; color: #fff; }
   #portfolio .portfolio-container .mask .item .item-container .about .link:hover { box-shadow: inset 0 0 0 1px #000, inset 0 72px #fff, 0 3px #000; -webkit-transform: translate(0, -3px); transform: translate(0, -3px); -webkit-transition: all 0.2s; transition: all 0.2s; }
-  #portfolio .portfolio-container .mask .item .item-container .about .link:hover a { color: #1C2028; } }
+  #portfolio .portfolio-container .mask .item .item-container .about .link:hover a { color: #525252; } }
 #tools { background-color: #fff; height: auto; }
 #tools hr.styled { margin-top: 0; }
-#tools h1 { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 3rem; text-align: center; color: #1C2028; margin: 0; }
+#tools h1 { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 3rem; text-align: center; color: #525252; margin: 0; }
 #tools .tools-container { display: inline-block; background: #fff; }
 #tools .tools-container figure.tool { position: relative; float: left; overflow: hidden; margin: 0; background: #fff; text-align: center; margin-bottom: 30px; margin-top: 30px; -webkit-transition: all 0.3s; transition: all .3s; max-height: 180px; }
 #tools .tools-container figure.tool.grayscale { -webkit-transition: all 0.3s; transition: all .3s; }
@@ -4988,17 +4993,17 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   #tools .tools-container .tool { max-height: 140px; } }
 @media screen and (min-width: 40em) { #tools .tools-container .tool { max-height: 180px; } }
 @media screen and (min-width: 64em) { #tools .tools-container .tool { max-height: 190px; } }
-#contact { width: 100%; min-width: 100%; color: #1C2028; background-color: #fff; }
+#contact { width: 100%; min-width: 100%; color: #525252; background-color: #fff; }
 #contact #error_message { color: #EB0029; text-align: center; }
 #contact .map-container { width: 100%; height: 220px; margin-top: 0p; }
 #contact .map-container #map { width: 100%; height: 100%; }
 #contact .mah-face { width: 120px; height: 120px; margin: 0 auto; margin-top: -50px; position: relative; z-index: 2; border: solid 10px white; border-radius: 120px; background: #333; }
 #contact .mah-face img { width: 100%; }
-#contact .email-text { text-align: center; margin-top: 30px; margin-bottom: 50px; }
+#contact .email-text { text-align: center; margin-top: 120px; margin-bottom: 50px; height: 400px; }
 #contact .email-text h1 { font-size: 1.5rem; }
 #contact .email-text .email-show { font-size: 1.2rem; font-weight: 700; margin-bottom: 70px; }
 #contact .email-text .email-show span { font-weight: 100; }
-#contact .footer { background: #1C2028; height: 50px; }
+#contact .footer { background: #525252; height: 50px; }
 #contact .footer .logo .logo-container { width: 70px; display: block; margin-top: 3px; }
 #contact .footer .logo .logo-container img { width: 100%; }
 #contact .footer .copyright { text-align: right; color: #ccc; font-size: 1em; line-height: 50px; }
@@ -5009,13 +5014,13 @@ hr.styled { border: 0; height: 1px; background-image: -webkit-linear-gradient(le
   #contact .phone { display: none; }
   #contact .container .phone-aux { display: block; float: left; width: 60%; }
   #contact .container .phone-aux:hover .phone-container { background: #f1f1f1; }
-  #contact .container .phone-aux .phone-container { height: 50px; border-radius: 3px; background-color: transparent; border-bottom: solid 2px #1c2028; display: inline-block; color: #1C2028; }
+  #contact .container .phone-aux .phone-container { height: 50px; border-radius: 3px; background-color: transparent; border-bottom: solid 2px #525252; display: inline-block; color: #525252; }
   #contact .container .phone-aux .phone-container .icon-mobile { float: left; font-size: 1.2rem; margin-top: 10px; }
   #contact .container .phone-aux .phone-container .phone-number { font-size: 1.2rem; float: left; margin-left: 5px; line-height: 40px; } }
-@media screen and (min-width: 40em) { #contact .map-container { height: 400px; }
+@media screen and (min-width: 40em) { #contact .map-container { height: 500px; }
   #contact .email-text h1 { font-size: 3.5rem; }
   #contact .email-text .email-show { font-size: 3rem; } }
-@media screen and (min-width: 64em) { #contact .map-container { height: 500px; }
+@media screen and (min-width: 64em) { #contact .map-container { height: 650px; }
   #contact .phone .phone-container .icon-mobile { margin-top: 8px; }
   #contact .phone .phone-container .icon-mobile, #contact .phone .phone-container .phone-number { font-size: 1.5rem; } }
 
