@@ -46,6 +46,10 @@
       text-align: center;
       padding: 20px 0;
     }
+    h1.title {
+      background: black;
+      color: white;
+    }
     h2 {
       margin: 20px auto;
       text-align: center;
@@ -601,6 +605,7 @@
             graphics.fillRect(col * cellSize + 2, row * cellSize + 2, cellSize - 4, cellSize - 4);
           }
           else if (content >= 0) {
+            graphics.strokeStyle = "#007bff";
             // Note: strokeStyle is always red.
             var left, right, top, bottom;
             var h, v;
@@ -895,10 +900,10 @@
 </head>
 
 <body onload="init()">
-  <h1>Eaters YOLO! a Genetic algorithm</h1>
+  <h1 class="title">NATURES KNOWS BEST - EATERS</h1>
   
   <div id="first-section">
-    <p id="message" class="alert alert-success" role="alert">&nbsp;</p>
+    <p id="message" class="alert alert-primary" role="alert">&nbsp;</p>
 
     <table border=0 cellpadding=8>
       <tr valign="top">
@@ -1010,9 +1015,9 @@
       </tr>
     </table>
     <p class="btn-group three-options" role="group" aria-label="Basic example">
-      <button class="btn btn-success" id="runButton">Run</button>
-      <button class="btn btn-success" id="pauseButton" disabled>Pause</button>
-      <button class="btn btn-success" id="stepButton">Step</button>
+      <button class="btn btn-primary" id="runButton">Run</button>
+      <button class="btn btn-primary" id="pauseButton" disabled>Pause</button>
+      <button class="btn btn-primary" id="stepButton">Step</button>
     </p>
     <div class="btn-group two-options" role="group" aria-label="Basic example">
       <button class="btn btn-secondary" id="runToSeasonButton">Run to Start of Year</button>
